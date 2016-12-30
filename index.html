@@ -237,7 +237,7 @@ var contCitas=0;
 var info = document.getElementById("contador");
 var info =info +' Total Frases : '+ arreglo.length ;
  
-contador.innerHTML = info;
+document.getElementById("contador") = info;
 
 function tupalabra(){
 document.getElementById("samira").innerHTML = mipalabra;
@@ -263,7 +263,7 @@ document.getElementById("poema").innerHTML = "Proximamente tu tema musical" ;
   <div class="container-fluid">
     <div class="jumbotron text-center">
       
-          <p class="bg-primary" id="contador" >hoy</p>
+          <p class="bg-primary" id="contador" >HOY</p>
           <p class="bg-primary">Tengo una palabra y una cita para ti</p>  
              
              <h1 class="text-primary" id="samira"> </h1>            
